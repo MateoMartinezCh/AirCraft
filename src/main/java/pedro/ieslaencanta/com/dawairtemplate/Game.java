@@ -49,6 +49,7 @@ public class Game implements IWarnClock, IKeyListener {
         this.escena_actual.draw(ctx);
         if (this.escena_actual.getState()==IScene.SceneState.END) {
             System.out.println("fin del juego");
+            System.exit(0);
         }
     }
 

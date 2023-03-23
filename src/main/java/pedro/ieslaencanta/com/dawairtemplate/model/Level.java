@@ -106,7 +106,7 @@ public class Level implements IDrawable, IWarnClock, IKeyListener {
         if (numerorandom < this.probabilidadenemigos[0]) {
            
             tempo = FactoryEnemies.create(tipoenemigo);
-            int cordyrandom = (int) (Math.random() * 450);
+            int cordyrandom = (int) (Math.random() * 430);
             tempo.init(new Coordenada(this.s.getWidth(), cordyrandom),
                     new Rectangle(
                             new Coordenada(this.s.getWidth(), cordyrandom),
